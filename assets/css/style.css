@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap');
+
+*, html, body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body{
+    text-align: center !important;
+    background-color: #18202F;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+input, button {
+    width: 35%;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+
+button, video{
+    margin-right: 10px;
+}
+
+img {
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+ol {
+    text-align: left;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 0%;
+    background-color: #9034AA;
+}
+
+
+.loading {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 2rem;
+   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    animation-duration: 1s;
+    animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+}
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+}
+  
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
