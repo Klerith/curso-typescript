@@ -1,10 +1,9 @@
 {
-  "name": "rxjs-dev",
+  "name": "ts-dev",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "rxjs": "^7.3.0",
     "typescript": "^4.3.5",
     "webpack": "^5.49.0",
     "webpack-dev-server": "^3.11.2"
